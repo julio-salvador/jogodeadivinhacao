@@ -1,13 +1,12 @@
 
-print("##           ")
-print("##   ########")  
-print("##   ##    ##")
-print("Jogo do Julio")         
-print("##   ##    ##")
-print("##         ##")
-print("#######    ##")
-print("           ##")
-
+print("##               ##### #### ####  ####    ###  ####                                                                                                               ")
+print("##   ########      #   #  # #     #  #    #  # #                                                                                                    ")  
+print("##   ##    ##   #  #   #  # #  ## #  #    #  # #                                                                                               ")                                                                                                           ")         
+print("##   ##    ##    ###   #### ####  ####    ###  ####                                                                                                         ")
+print("##   ##    ##                                                                                                                                     ")                                                                                                                             ")
+print("##         ##                                                                                                                                ")
+print("#######    ##                                                                                                                                ")
+print("           ##                                                                                                                                ")
 numeroSecreto = random.randragem(0,100)
 totalTentativas = 0
 pontos = 100
