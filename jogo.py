@@ -18,13 +18,13 @@ print("(1) - fácil (2) - médio (3) - difícil ")
 nivel = int(input("Escolha um nível"))
 
 if(nivel == 1):
-    print("o calabreso ta ruim demais")
+    print("fraco")
     totalTentativas = 20
 elif (nivel == 2):
-    print("o calabreso tá mei bom em")
+    print("mediano")
     totalTentativas = 10
 elif(nivel == 3):
-    print("o calabreso ta bão em")
+    print("bonzin")
     totalTentativas = 5
 
 for rodada in range (1, totalTentativas +1):
@@ -32,7 +32,7 @@ for rodada in range (1, totalTentativas +1):
     chute_str = imput("Digite um número entre 1 e 100: ")
     chute = int(chute_str)
 
-    if(chute < 1 or > 100):
+    if(chute < 1 or chute > 100):
        print("Número invalido")
        continue
 
